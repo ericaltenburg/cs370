@@ -1,0 +1,66 @@
+void add(trie_node *node, char* query){ 
+    //find if that path to a node exists already
+    //if it exists, we take that path until we run out of characters. 
+    //if it does not exist, we need to make an entirely new branch from the root
+
+    //:::::::::::::::assuming node is the root and we are passing in the node:::::::
+    trie_node* curr = node;
+    while (query != NULL){
+        //if it does NOT exist:
+        if (curr -> children[(*query) - 97] == NULL){
+            //we need to make a new node
+            curr->children[(*query) - 97] = create();
+        }
+        //if it DOES exist:
+        curr = curr -> children[(*query) - 97]; //moves to next node
+        query = query + 1; //move to next character
+    }
+    //once we get to the end we have to establish that that node is a leaf as opposed to being an inner node
+    curr->end_word = true;
+    return;
+}
+
+void add(trie_node *node, char* query){ 
+    char* copy; 
+    for(copy = query; *copy != '\0'; copy+1){ 
+        node->children_amount += 1;
+        if(node->children[*(copy) - 97] == NULL){ 
+            node->children[*(copy) - 97] = create();
+        }
+    }
+}
+
+void add(trie_node *node, char* query){ 
+    node->children_amount += 1;
+    while(*query != '\0'){ 
+        printf("%s\n", *(query)-97);
+        if(node->children[*(query)-97] == NULL){ 
+            node->children[*(query)-97] = create();
+        }
+        node = node->children[(*query) - 97];
+        node->children_amount +=1;
+        query += 1;
+    }
+}
+
+void add(trie_node *node, char* query) {
+    node->children_amount += 1;
+    if (*query == '\0'){ 
+      return;
+    }
+    if (node->children[*(query) - 97] == NULL) {
+		node->children[(*query) - 97] = create();
+    }
+    add(node->children[(*query) - 97], query+1);
+}
+
+void add(trie_node *node, char* query) {
+    node->children_amount += 1;
+    if (*query != '\0'){ 
+        if (node->children[*(query) - 97] == NULL) {
+		    node->children[(*query) - 97] = create();
+        }
+        add(node->children[(*query) - 97], query+1);
+    }
+    return;
+}

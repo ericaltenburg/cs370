@@ -1,0 +1,10 @@
+8
+find cop
+add copper
+find cop
+add appoint
+add call
+add disappoint
+search copper
+find point
+

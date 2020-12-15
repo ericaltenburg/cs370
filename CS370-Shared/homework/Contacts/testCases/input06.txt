@@ -1,0 +1,15 @@
+14
+add executive
+add expression
+add circle
+add perfume
+add card
+add presidency
+add mug
+add anticipation
+add punish
+add correspondence
+find pun
+find ex
+search card
+search expression

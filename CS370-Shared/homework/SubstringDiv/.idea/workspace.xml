@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="979396e6-3398-4b90-81ef-b1777b75b828" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X8Qf1lEkdVtaCg5WKgDHKlApiV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.SubstringDivisibility">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubstringDivisibility" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubstringDivisibility" />
+      <module name="SubstringDiv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SubstringDivisibility" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="979396e6-3398-4b90-81ef-b1777b75b828" name="Default Changelist" comment="" />
+      <created>1580346133459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580346133459</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="206" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580435094302">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state x="206" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1022@0.23.2560.1022" timestamp="1580435094302" />
+    <state x="479" y="339" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580435092193">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state x="479" y="339" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1022@0.23.2560.1022" timestamp="1580435092193" />
+    <state x="968" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580425359927">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state x="968" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2560.1022@0.23.2560.1022" timestamp="1580425359927" />
+    <state width="1269" height="166" key="GridCell.Tab.0.bottom" timestamp="1580796111127">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.23.1280.742@0.23.1280.742" timestamp="1580682583801" />
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580574586978" />
+    <state width="1269" height="166" key="GridCell.Tab.0.bottom/0.23.2560.1022@0.23.2560.1022" timestamp="1580796111127" />
+    <state width="1269" height="166" key="GridCell.Tab.0.center" timestamp="1580796111123">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state width="1238" height="166" key="GridCell.Tab.0.center/0.23.1280.742@0.23.1280.742" timestamp="1580682583800" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580574586975" />
+    <state width="1269" height="166" key="GridCell.Tab.0.center/0.23.2560.1022@0.23.2560.1022" timestamp="1580796111123" />
+    <state width="1269" height="166" key="GridCell.Tab.0.left" timestamp="1580796111121">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state width="1238" height="166" key="GridCell.Tab.0.left/0.23.1280.742@0.23.1280.742" timestamp="1580682583800" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580574586971" />
+    <state width="1269" height="166" key="GridCell.Tab.0.left/0.23.2560.1022@0.23.2560.1022" timestamp="1580796111121" />
+    <state width="1269" height="166" key="GridCell.Tab.0.right" timestamp="1580796111124">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state width="1238" height="166" key="GridCell.Tab.0.right/0.23.1280.742@0.23.1280.742" timestamp="1580682583801" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580574586977" />
+    <state width="1269" height="166" key="GridCell.Tab.0.right/0.23.2560.1022@0.23.2560.1022" timestamp="1580796111124" />
+    <state x="152" y="78" key="SettingsEditor" timestamp="1580498227815">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="152" y="78" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1580498227815" />
+    <state x="304" y="157" key="SettingsEditor/0.23.2560.1022@0.23.2560.1022" timestamp="1580434986069" />
+    <state x="844" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580740829644">
+      <screen x="0" y="23" width="2560" height="1022" />
+    </state>
+    <state x="422" y="313" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.742@0.23.1280.742" timestamp="1580682257264" />
+    <state x="844" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1022@0.23.2560.1022" timestamp="1580740829644" />
+    <state x="204" y="204" width="670" height="491" key="search.everywhere.popup" timestamp="1580680664205">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="204" y="204" width="670" height="491" key="search.everywhere.popup/0.23.1280.742@0.23.1280.742" timestamp="1580680664205" />
+    <state x="204" y="213" width="670" height="514" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1580498177656" />
+    <state x="407" y="273" width="670" height="676" key="search.everywhere.popup/0.23.2560.1022@0.23.2560.1022" timestamp="1580436871495" />
+  </component>
+</project>

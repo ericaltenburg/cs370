@@ -1,0 +1,13 @@
+8
+add strain
+add persist
+add sweat
+add shot
+find pers
+1
+search sweat
+Yes
+search persist
+Yes
+search sweet
+No

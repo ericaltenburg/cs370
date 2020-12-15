@@ -1,0 +1,12 @@
+Input tiles:
+1. <Y1, R1, Y1, Y1>
+2. <Y1, Y1, Y1, Y1>
+3. <Y1, Y1, Y1, R1>
+4. <Y1, Y1, Y1, Y1>
+5. <Y1, Y1, R1, Y1>
+6. <Y1, R1, Y1, Y1>
+7. <Y1, Y1, Y1, R1>
+8. <Y1, Y1, R1, Y1>
+9. <Y1, Y1, Y1, Y1>
+
+No solution found.

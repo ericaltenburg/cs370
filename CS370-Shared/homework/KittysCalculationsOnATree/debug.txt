@@ -1,0 +1,121 @@
+A IS: 1 B IS: 2
+A IS: 1 B IS: 3
+A IS: 1 B IS: 4
+A IS: 3 B IS: 5
+A IS: 3 B IS: 6
+A IS: 3 B IS: 7
+Printing connections matrix...
+[[0, 0, 0]
+[2,3,4]
+[1]
+[1,5,6,7]
+[1]
+[3]
+[3]
+[3]
+]
+Printing tree height vector...: [0,0,1,1,1,2,2,2]
+Printing tree pred vector...: [0,0,1,1,1,3,3,3]
+Printing connections matrix...
+[[0, 0, 0]
+[2,3,4]
+[0, 0, 0]
+[5,6,7]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+]
+******************************************************************
+GRABBING THIS INDEX: 2
+GRABBING THIS INDEX: 4
+SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+Printing auto ss: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+---------------------------------------
+REACHED IF 1
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+---------------------------------------
+---------------------------------------
+REACHED IF 2
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+---------------------------------------
+Printing auto ss: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+---------------------------------------
+REACHED WHILE
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ss_merge: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+MERGE RESULT: 16
+ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+MERGE: 2 ORIGIN:4
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+---------------------------------------
+OUTPUTTING ANSWER: 
+16
+******************************************************************
+GRABBING THIS INDEX: 5
+SUBSET-OBJ{ (INDEX- 5) (SETSUM- 5) (VALUE- 0)}
+OUTPUTTING ANSWER: 
+0
+******************************************************************
+GRABBING THIS INDEX: 2
+GRABBING THIS INDEX: 4
+GRABBING THIS INDEX: 5
+SUBSET-OBJ{ (INDEX- 5) (SETSUM- 5) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+Printing auto ss: SUBSET-OBJ{ (INDEX- 5) (SETSUM- 5) (VALUE- 0)}
+---------------------------------------
+REACHED WHILE
+SUBSET-OBJ{ (INDEX- 3) (SETSUM- 5) (VALUE- 5)}
+---------------------------------------
+---------------------------------------
+REACHED IF 1
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 5) (VALUE- 10)}
+---------------------------------------
+---------------------------------------
+REACHED IF 2
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+---------------------------------------
+Printing auto ss: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+---------------------------------------
+REACHED IF 1
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ss_merge: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 5) (VALUE- 10)}
+MERGE RESULT: 30
+ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+MERGE: 10 ORIGIN:2
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 7) (VALUE- 12)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+---------------------------------------
+Printing auto ss: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+---------------------------------------
+REACHED WHILE
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ss_merge: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 7) (VALUE- 12)}
+MERGE RESULT: 76
+ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+MERGE: 12 ORIGIN:4
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 11) (VALUE- 16)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 11) (VALUE- 16)}
+---------------------------------------
+OUTPUTTING ANSWER: 
+106

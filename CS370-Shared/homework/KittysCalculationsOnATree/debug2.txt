@@ -1,0 +1,169 @@
+A IS: 1 B IS: 2
+A IS: 1 B IS: 3
+A IS: 1 B IS: 4
+A IS: 3 B IS: 5
+A IS: 3 B IS: 6
+A IS: 3 B IS: 7
+Printing connections matrix...
+[[0, 0, 0]
+[2,3,4]
+[1]
+[1,5,6,7]
+[1]
+[3]
+[3]
+[3]
+]
+Printing tree height vector...: [0,0,1,1,1,2,2,2]
+Printing tree pred vector...: [0,0,1,1,1,3,3,3]
+Printing connections matrix...
+[[0, 0, 0]
+[2,3,4]
+[0, 0, 0]
+[5,6,7]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+]
+******************************************************************
+GRABBING THIS INDEX: 2
+GRABBING THIS INDEX: 4
+SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+Printing subset list: [[2,2,0], [4,4,0], ]
+Printing ss_next pre conditionals: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+Printing auto ss: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+!!!!Erased 2 from subset_id!!!!!
+---------------------------------------
+REACHED IF 1
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+---------------------------------------
+---------------------------------------
+REACHED IF 2
+!!!!Added ss with index 1 to subset_id!!!!
+This is ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+---------------------------------------
+Printing subset list: [[1,2,2], [4,4,0], ]
+Printing ss_next pre conditionals: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 18480464) (VALUE- 140671735436328)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+REVERTING SS_NEXT TO BEGINNING 
+Printing ss_next: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Printing auto ss: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+!!!!Erased 4 from subset_id!!!!!
+---------------------------------------
+REACHED WHILE
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ID MERGE VALUE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+ss_merge: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+MERGE RESULT: 16
+ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+MERGE: 2 ORIGIN:4
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+---------------------------------------
+OUTPUTTING ANSWER: 
+16
+******************************************************************
+GRABBING THIS INDEX: 5
+SUBSET-OBJ{ (INDEX- 5) (SETSUM- 5) (VALUE- 0)}
+OUTPUTTING ANSWER: 
+0
+******************************************************************
+GRABBING THIS INDEX: 2
+GRABBING THIS INDEX: 4
+GRABBING THIS INDEX: 3
+GRABBING THIS INDEX: 6
+SUBSET-OBJ{ (INDEX- 6) (SETSUM- 6) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+SUBSET-OBJ{ (INDEX- 3) (SETSUM- 3) (VALUE- 0)}
+Printing subset list: [[6,6,0], [2,2,0], [4,4,0], [3,3,0], ]
+Printing ss_next pre conditionals: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+Printing auto ss: SUBSET-OBJ{ (INDEX- 6) (SETSUM- 6) (VALUE- 0)}
+!!!!Erased 6 from subset_id!!!!!
+---------------------------------------
+REACHED WHILE
+SUBSET-OBJ{ (INDEX- 3) (SETSUM- 6) (VALUE- 6)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ID MERGE VALUE: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 3) (VALUE- 0)}
+ss_merge: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 3) (VALUE- 0)}
+MERGE RESULT: 18
+ss: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 6) (VALUE- 6)}
+MERGE: 0 ORIGIN:6
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 9) (VALUE- 6)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+---------------------------------------
+Printing subset list: [[2,2,0], [4,4,0], [3,9,6], ]
+Printing ss_next pre conditionals: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+Printing auto ss: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 2) (VALUE- 0)}
+!!!!Erased 2 from subset_id!!!!!
+---------------------------------------
+REACHED IF 1
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+---------------------------------------
+---------------------------------------
+REACHED IF 2
+!!!!Added ss with index 1 to subset_id!!!!
+This is ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+---------------------------------------
+Printing subset list: [[1,2,2], [4,4,0], [3,9,6], ]
+Printing ss_next pre conditionals: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 9) (VALUE- 6)}
+Printing auto ss: SUBSET-OBJ{ (INDEX- 4) (SETSUM- 4) (VALUE- 0)}
+!!!!Erased 4 from subset_id!!!!!
+---------------------------------------
+REACHED IF 1
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ID MERGE VALUE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+ss_merge: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 2) (VALUE- 2)}
+MERGE RESULT: 16
+ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 4) (VALUE- 4)}
+MERGE: 2 ORIGIN:4
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 9) (VALUE- 6)}
+---------------------------------------
+Printing subset list: [[1,6,6], [3,9,6], ]
+Printing ss_next pre conditionals: SUBSET-OBJ{ (INDEX- 2) (SETSUM- 18668848) (VALUE- 140671735436328)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+REVERTING SS_NEXT TO BEGINNING 
+Printing ss_next: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Printing auto ss: SUBSET-OBJ{ (INDEX- 3) (SETSUM- 9) (VALUE- 6)}
+!!!!Erased 3 from subset_id!!!!!
+---------------------------------------
+REACHED WHILE
+SUBSET-OBJ{ (INDEX- 1) (SETSUM- 9) (VALUE- 15)}
+---------------------------------------
+---------------------------------------
+REACHED ELSE:
+ID MERGE VALUE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+ss_merge: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 6) (VALUE- 6)}
+MERGE RESULT: 144
+ss: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 9) (VALUE- 15)}
+MERGE: 6 ORIGIN:15
+NEW VALUE OF SS_MERGE: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 15) (VALUE- 21)}
+successfully erased ss from susbets.
+---------------------------------------
+INCREMENTING SS: SUBSET-OBJ{ (INDEX- 1) (SETSUM- 15) (VALUE- 21)}
+---------------------------------------
+OUTPUTTING ANSWER: 
+178

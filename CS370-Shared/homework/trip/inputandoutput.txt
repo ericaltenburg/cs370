@@ -1,0 +1,109 @@
+#	Eric Altenburg, Hamzah Nizami, and Constance Xu
+#	Spoj Trip test cases
+#	I pledge my honor that I have abided by the Stevens Honor System.
+
+#	Input 1
+1
+abcdefghijklmnopabcd
+absifekmjhsujewoq
+
+# 	Output 1
+abehjo
+abekmo
+abfhjo
+abfkmo
+abikmo
+
+#	Input 2
+1
+asdjvljcjlkvkbewjnsvnksdjdwqakcasdfdakqhwjcusghajshasdfghjklasdfghjklasdfghjklwd
+abdbdbsdbdb
+
+#	Output 2
+abddsdd
+adbdsdd
+
+#	Input 3
+1
+cdkahwuqj
+claoqpjdafdks
+
+#	Output 3
+caqj
+
+#	Input 4
+1
+xnslauwjdlsmdkgndjshauqjdosjmdkflpoqoqiwu
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopop
+
+# 	Output 4
+opoo
+
+# 	Input5
+1
+dadadadadadadadadadadadada
+ad
+
+# 	Output 5
+ad
+
+#	Input 6
+1
+abcabbassisatdfassfasdbcbbbvzccabcbcaalmoabasadfasdfklcnsdfasdabcab
+acbacbbbng12klcnsdklcnsdklcnsd3tesng123teszsdfklcnsdfasdabcabccabcamlao
+
+#	Output 6
+acbacbbbcccsdsdfklcnsdfasdabcab
+acbacbbbcclsdsdfklcnsdfasdabcab
+
+#	Input 7
+1
+abcabcaacnsdfasdabcab
+acbacbamlaobbasdfassfbcbbbvzccabc
+
+#	Output 7
+ababaasdfasbcab
+abacaasdfasbcab
+abcaaasdfasbcab
+abcabasdfasbcab
+abcbaasdfasbcab
+acabaasdfasbcab
+acacaasdfasbcab
+acbcaasdfasbcab
+
+#	Input 8
+1
+jdskdajaksjdiabadd
+jfkdlsjaiondksfhslag
+
+#	Output 8
+jdsjaksa
+jkdjaksa
+
+#	Input 9
+1
+kdlsidanfnsdajs
+lkxn
+
+
+#	Output 9
+kn
+ln
+
+#	Input 10
+2
+abcabcaa
+acbacba
+fjkds
+fjdkslaisaksn
+
+#	Output 10
+ababa
+abaca
+abcba
+acaba
+acaca
+acbaa
+acbca
+fjds
+fjks

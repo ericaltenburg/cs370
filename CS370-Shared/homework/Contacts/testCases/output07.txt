@@ -1,0 +1,13 @@
+8
+find cop
+0
+add copper
+find cop
+1
+add appoint
+add call
+add disappoint
+search copper
+Yes
+find point
+0

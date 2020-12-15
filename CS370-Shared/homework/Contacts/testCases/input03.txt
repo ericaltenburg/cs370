@@ -1,0 +1,11 @@
+10
+add computer
+add racecar
+add father
+add college
+add bottle
+find col
+find the
+find web
+search father
+search last

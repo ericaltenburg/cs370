@@ -1,0 +1,8 @@
+7
+add quadratic
+add ball
+add formula
+find quad
+find yes
+find a
+search formula

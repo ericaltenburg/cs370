@@ -1,0 +1,9 @@
+8
+add strain
+add persist
+add sweat
+add shot
+find pers
+search sweat
+search persist
+search sweet

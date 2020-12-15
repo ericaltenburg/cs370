@@ -1,0 +1,48 @@
+1) resistancematcher 47 2 10 1000.txt
+	Target resistance of 47.0 ohms is possible with [51.7, 559.7, 11459.7, 15548.7] ohm resistors.
+	Best fit: 46.9911 ohms
+	Percent error: 0.02 %
+
+	Target resistance of 47.0 ohms is possible with [51.7, 518.7] ohm resistors.
+	Best fit: 47.0140 ohms
+	Percent error: 0.03 %
+
+
+
+2) resistancematcher 200 .5 5 1000.txt
+	Target resistance of 200.0 ohms is possible with [215.7, 3331.7, 15548.7] ohm resistors.
+	Best fit: 199.9788 ohms
+	Percent error: 0.01 %
+
+	Target resistance of 200.0 ohms is possible with [215.7, 2809.7] ohm resistors.
+	Best fit: 200.3214 ohms
+	Percent error: 0.16 %
+
+
+3) resistancematcher 354 2 1 1000.txt
+	Target resistance of 354.0 ohms is possible with [355.7] ohm resistors.
+	Best fit: 355.7000 ohms
+	Percent error: 0.48 %
+
+	Target resistance of 354.0 ohms is possible with [355.7] ohm resistors.
+	Best fit: 355.7000 ohms
+	Percent error: 0.48 %
+
+4) resistancematcher 555.55 .4 3 1000.txt
+	Target resistance of 555.55 ohms is possible with [615.7, 8963.7, 15548.7] ohm resistors.
+	Best fit: 555.5424 ohms
+	Percent error: 0.00 %
+
+	Target resistance of 555.55 ohms is possible with [575.7, 15548.7] ohm resistors.
+	Best fit: 555.1454 ohms
+	Percent error: 0.07 %
+
+
+5) resistancematcher 92.7 .3 8 1000.txt
+	Target resistance of 92.7 ohms is possible with [104.7, 910.7, 13054.7, 15548.7] ohm resistors.
+	Best fit: 92.6778 ohms
+	Percent error: 0.02 %
+
+	Target resistance of 92.7 ohms is possible with [104.7, 862.7, 15381.7] ohm resistors.
+	Best fit: 92.8052 ohms
+	Percent error: 0.11 %
