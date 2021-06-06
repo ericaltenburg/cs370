@@ -15,18 +15,20 @@ Eric Altenburg, Hamzah Nizami, Constance (Connie) Xu
 ConnYe
 
 ## Assignments 
-* LargeSum : Modified Project Euler #13. Used Java
-* Substring Divisibility: Modified Project Euler #43. Used Java
-* Contacts: Hackerrank -> All Domains -> Data Structures -> Trie -> Contacts. Used C
-* Reciprocal Cycles: Modified Project Euler #26. Used Java
-* Scramble Squares: Used Java
-* Hashit: SPOJ #29. Used C
-* Sam and Substrings: Hackerrank -> Practice -> Algorithms -> Dynamic Programming -> Sam and Substrings: Used Python
-* Trip: SPOJ #13. Used Python 
-* Path Sum Four Ways: Project Euler #83. Used C++ 
-* Resistance Matcher: Used C++ 
-* Amicable Numbers: Project Euler #21. Used Python 
-* Kitty's Calculations On A Tree: Hackerrank -> Practice -> Data Structures -> Trees -> Kitty Calculations On A Tree. Used C++
+| Name                           | Where To Find It                                                                   | Language |
+|--------------------------------|------------------------------------------------------------------------------------|----------|
+| LargeSum                       | Modified Project Euler #13                                                         | Java     |
+| Substring Divisibility         | Modified Project Euler #43                                                         | Java     |
+| Contacts                       | Hackerrank -> All Domains -> Data Structures -> Trie -> Contacts                   | C        |
+| Reciprocal Cycles              | Modified Project Euler #26                                                         | Java     |
+| Scramble Squares               |                                                                                    | Java     |
+| Hashit                         | SPOJ #29                                                                           | C        |
+| Sam and Substrings             | Hackerrank -> Practice -> Algorithms -> Dynamic Programming -> Sam and Substrings  | Python   |
+| Trip                           | SPOJ #13                                                                           | Python   |
+| Path Sum Four Ways             | Project Euler #83                                                                  | C++      |
+| Resistance Matcher             |                                                                                    | C++      |
+| Amicable Numbers               | Project Euler #21                                                                  | Python   |
+| Kitty's Calculations On A Tree | Hackerrank -> Practice -> Data Structures -> Trees -> Kitty Calculations On A Tree | C++      |
 
 ## Notes 
 All homework code is the original work of the group.
